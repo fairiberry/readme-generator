@@ -1,0 +1,17 @@
+{
+  "name": "module-nine",
+  "version": "1.0.0",
+  "description": "[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs.promises": "^0.1.2",
+    "inquirer": "^8.2.4",
+    "node": "^16.17.0",
+    "path": "^0.12.7"
+  }
+}
