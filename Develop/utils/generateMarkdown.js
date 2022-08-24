@@ -11,9 +11,11 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license !== "Other/None") {
-    return `[${license}](https://choosealicense.com/licenses/${license}/)`;
+  if (license !== 'None') {
+    return `\n* [License](#license)\n`;
   }
+  return '';
+
 };
 
 // TODO: Create a function that returns the license section of README
@@ -22,7 +24,7 @@ function renderLicenseSection(license) {
   console.log(license);
   if (license !== "Other/None") {
     return `## License
-    This repository is licensed under ${renderLicenseLink(license)}` ;
+    This repository is licensed under ${renderLicenseLink(license)}`;
   }
 };
 
@@ -35,7 +37,7 @@ function generateMarkdown(data) {
 
   ${data.projectDescription}
 
-  ## Istallation
+  ## Installation
 
   ${data.projectInstallation}
 
