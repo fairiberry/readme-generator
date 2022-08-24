@@ -1,3 +1,7 @@
 # Professional README Generator Starter Code
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+## Description
+This is a CLI application that will help the user generate a READNE.md for their project.
+
+## Walkthrough
+(Screencastify)[https://youtu.be/4DeF2pB4ixI]
